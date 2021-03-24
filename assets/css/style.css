@@ -116,8 +116,16 @@ button:hover {
 }
 
 #converted-value{
+    min-width: 240px;
+    text-align: center;
+
     font-family: 'Montserrat', sans-serif;
+    font-size:18px;
     font-weight: 500;
-    margin: 10px 0px;
-    font-size:24px;
+
+    margin: 5px auto;
+    padding: 6px 0px;
+
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 8px
 }
