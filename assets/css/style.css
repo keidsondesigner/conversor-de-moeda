@@ -124,7 +124,8 @@ button:hover {
     font-size:18px;
     font-weight: 500;
 
-    margin: 5px auto;
+    margin-top: 5px;
+    margin-bottom: 30px;
     padding: 6px 0px;
 
     border: 1px solid rgb(216, 216, 216);
