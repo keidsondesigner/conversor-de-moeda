@@ -8,6 +8,6 @@ clickButton.onclick = () => {
     if (valueDolarNumber < 1) {
         document.querySelector('#converted-value').innerHTML = "Valor inválido!"
     } else {
-        document.querySelector('#converted-value').innerHTML = 'R$ ' + (valueDolarNumber * 5.50).toFixed(2) + ' Reais'
+        document.querySelector('#converted-value').innerHTML = 'São R$ ' + (valueDolarNumber * 5.50).toFixed(2)
     }  
 }
